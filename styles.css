@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    background-color: #ffe6cc;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.candle-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.candle {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+}
+
+.candle img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#cart, #payment {
+    margin-top: 40px;
+}
+
+#payment form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#payment label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#payment input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#payment button {
+    width: 100%;
+}
